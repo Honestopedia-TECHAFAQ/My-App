@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 from streamlit_autorefresh import st_autorefresh
 
-st.set_page_config(page_title="Real-Time News Aggregator", layout="wide")
+st.set_page_config(page_title="Real-Time News Aggregator By Afaq Ahmad", layout="wide")
 
 st.markdown("""
     <style>
@@ -158,4 +158,4 @@ with st.container():
                     unsafe_allow_html=True
                 )
                 st.write("---")
-    st.markdown("<div class='footer'>Powered by Streamlit | © 2024</div>", unsafe_allow_html=True)
+    st.markdown("<div class='footer'> | © 2024</div>", unsafe_allow_html=True)
