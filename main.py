@@ -126,7 +126,7 @@ def categorize_article(title, summary, image_url):
         categories["Others"].append({"title": title, "summary": summary, "image": image_url})
 st_autorefresh(interval=300000, key="data_refresh")
 with st.container():
-    st.markdown("<h1 class='header'>Real-Time News Aggregator</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 class='header'>Real-Time News Aggregator By Afaq Ahmad</h1>", unsafe_allow_html=True)
     for url in rss_urls:
         feed = fetch_feed(url)
         for entry in feed["entries"]:
